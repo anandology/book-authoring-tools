@@ -1,0 +1,15 @@
+# (APPENDIX) Appendix {-}
+
+# Installing Python
+
+## Linux
+
+## Mac OS X
+
+## Windows
+
+# Setting up your Editor
+
+## vscode
+
+## Jupyter Desktop

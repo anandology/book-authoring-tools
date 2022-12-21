@@ -1,0 +1,36 @@
+# Working with Data
+
+## Lists
+
+```python
+>>> names = ["alice", "bob", "charlie", "dave"]
+>>> names
+['alice', 'bob', 'charlie', 'dave']
+>>> len(names)
+4
+```
+
+::: {.exercise #product name="Product"}
+
+Implement a function product, to compute product of a list of numbers.
+
+```
+>>> product([1, 2, 3])
+6
+```
+
+:::
+
+## Dictionaries
+
+Dictionaries[^1] are used to represent name-value pairs.
+
+[^1]: Dictionaries are called Hashtables, Hashmap and associative
+arrays in some other programming langauges.
+
+```python
+>>> d = {"x": 1, "y": 2}
+>>> d
+{'x': 1, 'y': 2}
+```
+

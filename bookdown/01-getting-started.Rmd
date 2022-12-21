@@ -1,0 +1,58 @@
+
+# (PART) Part A {-}
+
+# Getting Started
+
+## Python example
+
+```python
+def square(x):
+    return x*x
+
+print(square(5))
+```
+
+## Python examples like notebook
+
+```{python}
+x = 5
+y = 3
+print(x+y)
+```
+
+And print square of x.
+
+```{python}
+def f(a, b):
+    return a*a + b
+
+f(x, y)
+```
+
+
+
+## Quote
+
+> "When in Doubt, use Brute force."
+>
+> -- Ken Thompson, Bell Labs
+
+## Examples
+
+::: {.example #square name="Square"}
+Let's write a program `square.py` that takes a number as command-line argument
+and prints the square of that number.
+
+```python
+import sys
+n = int(sys.argv[1])
+print(n*n)
+```
+:::
+
+Let's try runing this program:
+
+```shell
+$ python square.py 5
+25
+```
